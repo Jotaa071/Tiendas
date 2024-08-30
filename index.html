@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container shadow">
+        <h1>Buscar Tienda</h1>
+        <p>Ingresa el número de la tienda:</p>
+        <label for="numeroTienda" class="sr-only">Número de tienda</label>
+        <input type="number" id="numeroTienda" placeholder="Número de tienda">
+        <button id="buscarButton">Buscar</button>
+        <p id="resultado"></p>
+        <p id="ultimoResultado"></p>
+        <div class="mapa">
+            <img src="Planos.png" alt="Plano del depósito" id="plano">
+            <div class="zona" id="zona1"></div>
+            <div class="zona" id="zona2"></div>
+            <div class="zona" id="zona3"></div>
+            <div class="zona" id="zona5"></div>
+            <div class="zona" id="zona6"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
